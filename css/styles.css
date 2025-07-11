@@ -1,0 +1,32 @@
+
+body {
+    padding-top: 50px;
+    margin: 0;
+    background: radial-gradient(ellipse at center, #175ca7, #50455c);
+    height: 100vh;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    color: #fff;
+}
+.form-group {
+  color: white;
+}
+.btn {
+color: #292421;
+text-align: center;
+vertical-align: middle;
+}
+.btn-block:hover {
+border-color: #fff;
+outline-color: #fff;   
+box-shadow:0 0 0.3px 0.3px white;
+filter:drop-shadow(0 0 3px #fff);
+  /* border-width: 2px ; */
+}
+.btn-block:active {
+  color: #fff;
+  background-color: #5c90c7;
+  border-color: #5c90c7;
+}
